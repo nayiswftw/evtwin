@@ -1,0 +1,23 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+.Python
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# PlatformIO / firmware build
+firmware/.pio/
+firmware/.vscode/
+
+# Local secrets (Wi-Fi / server IP)
+firmware/src/secrets.h
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
